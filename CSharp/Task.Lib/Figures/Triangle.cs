@@ -1,6 +1,6 @@
 ﻿namespace Task.Lib.Figures;
 
-public class Triangle : Figure
+public record Triangle : Figure
 {
     private double Ab { get; }
     private double Bc { get; }

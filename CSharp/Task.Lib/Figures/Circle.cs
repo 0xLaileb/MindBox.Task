@@ -1,6 +1,6 @@
 ﻿namespace Task.Lib.Figures;
 
-public class Circle : Figure
+public record Circle : Figure
 {
     private double Radius { get; }
 

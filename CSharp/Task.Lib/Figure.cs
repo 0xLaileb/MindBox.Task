@@ -1,11 +1,8 @@
 ﻿namespace Task.Lib;
 
-public abstract class Figure
+public abstract record Figure(string Name)
 {
-    public string Name { get; set; }
-
-    protected Figure(string name) 
-        => Name = name;
+    public string Name { get; } = Name;
 
     /// <summary>
     /// Получить площадь
