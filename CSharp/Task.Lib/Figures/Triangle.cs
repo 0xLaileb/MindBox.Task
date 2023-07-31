@@ -1,6 +1,6 @@
 ﻿namespace Task.Lib.Figures;
 
-public class Triangle : Figure
+public sealed class Triangle : Figure
 {
     private double Ab { get; }
     private double Bc { get; }
