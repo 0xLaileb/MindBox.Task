@@ -2,7 +2,7 @@
 
 public abstract class Figure
 {
-    public string Name { get; set; }
+    public string Name { get; }
 
     protected Figure(string name) 
         => Name = name;
